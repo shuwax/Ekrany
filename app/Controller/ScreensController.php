@@ -332,6 +332,10 @@ class ScreensController extends AppController {
 
             $this->set('systell',$tablica);
             self::$godzina = $tablica[0][7];
+            if($idG == 1)
+            {
+                $this->render('Statystykiobecnenewos');
+            }else
             $this->render('Statystykiobecne');
         }
         else if($cowyswietlic == 0  &&  $idG == 4) { //PBX

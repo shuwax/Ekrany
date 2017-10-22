@@ -122,7 +122,7 @@
     width: 1920px;
     height: 0pc;
     margin-left: -380px;
-    margin-top: 43px;>
+    margin-top: 57px;>
                 <div class="table-responsive">
             <table class="table table-bordered table-hover header-fixed table-striped">
                 <thead>
@@ -133,7 +133,7 @@
                     <th >     Czas</th>
                     <th>Zgody</th>
                     <th>Srednia</th>
-                    <th>PKT</th>
+                    <th>PLN/H</th>
                 </tr>
                 </thead>
             </table>
